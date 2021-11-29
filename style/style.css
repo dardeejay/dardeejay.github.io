@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'M PLUS 2', sans-serif;
+    
+}
+body{
+    background-image: url(Science_seabreeze_502004639.jpg);
+}
+h1{
+    
+    margin: 20px auto;
+    text-align: center;
+}
+
+.table-container{
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+    padding: 40px 10px;
+    background-color: lightyellow;
+    border-radius: 20px;
+    
+}
+table {
+    border-collapse: collapse;
+    display: inline-block;
+    width: 236.2px;
+    height: 225px;
+    background-color: lightyellow;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding: 5px 0;
+}
+
+table thead tr th {
+    border-bottom: 1px solid #000000;
+}
+table thead .days{
+    background-color: pink;
+}
+table thead th{
+    padding: 2.5px;
+}
+  
+.sun{
+    color: red;
+}
+p{
+    background-color: bisque;
+    width:170px;
+    padding: 5px;
+    border-radius: 10px;
+    float: right;
+    font-size: 10px;
+    text-align: center;
+}
+
+
