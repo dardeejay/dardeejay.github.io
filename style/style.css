@@ -12,7 +12,10 @@ h1{
     margin: 20px auto;
     text-align: center;
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 .table-container{
     margin: 0 auto;
     width: 900px;
