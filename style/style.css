@@ -1,63 +1,166 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap');
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'M PLUS 2', sans-serif;
-    
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
 body{
-    background-image: url(Science_seabreeze_502004639.jpg);
-}
-h1{
-    
-    margin: 20px auto;
-    text-align: center;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-.table-container{
-    margin: 0 auto;
-    width: 900px;
-    text-align: center;
-    padding: 40px 10px;
-    background-color: lightyellow;
-    border-radius: 20px;
+    background-image: url(../images/pewdiepie-red-and-black-wavy-background-uhd-4k-wallpaper.jpg);
+    background-size: cover;
     
 }
-table {
-    border-collapse: collapse;
+
+.max-width{
+    max-width:1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navigation-bar{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    background-blend-mode: overlay;
+    padding: 15px 0;
+    border-bottom: 1px solid #920000;
+}
+
+.navigation-bar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-bar .logo a{
+    font-size: 35px;
+    color: white;
+    font-weight: 700 ;
+}
+.navigation-bar .logo a span{
+    color: #920000;
+}
+.navigation-bar .menu li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 1000;
+    padding: 29px 25px;
+    
+    
+}
+.navigation-bar .menu li{
+    list-style: none;
     display: inline-block;
-    width: 236.2px;
-    height: 225px;
-    background-color: lightyellow;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    padding: 5px 0;
 }
 
-table thead tr th {
-    border-bottom: 1px solid #000000;
+.navigation-bar .menu li a:hover{
+    background-color: #920000;
+    transition-duration: 500ms;
 }
-table thead .days{
-    background-color: pink;
+
+/*Homepage styling*/
+#selfie{
+    position: static;
+    width: 392px;
+    height: 464px;
+    margin-top: 205px;
+    margin-right: 637px;
+    float: right;  
+    z-index: 0;
 }
-table thead th{
-    padding: 2.5px;
+
+#name{
+    display: inline-block;
+    position: absolute;
+    color: white;
+    margin-top: 200px;
+    margin-left: 105px;
+    font-size: 60px;
+    z-index: -1;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    padding-left: 10px;
+    
 }
-  
-.sun{
-    color: red;
+
+.details{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    margin-top: 390px;
+    margin-left: 105px;
+    font-size: 17.3px;
+    font-weight: 100px;
 }
-p{
-    background-color: bisque;
-    width:170px;
-    padding: 5px;
+.details2{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    margin-top: 205px;
+    margin-left: 850px;
+    font-size: 17.3px;
+    max-width: 400px;
+    
+}
+
+.details2 p:first-child{
+    margin-top: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid white;
+
+}
+
+.details2 .smalldetails p:first-child{
+    font-weight: 400;
+    border-bottom: none;
+}
+.details2 .smalldetails p:last-child{
+    font-weight: 400;
+}
+
+/* Contact Me Styling */
+.outside-links ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.outside-links a{
+    width: 16%;
+    height: 200px;
+    background-color: whitesmoke;
     border-radius: 10px;
-    float: right;
-    font-size: 10px;
-    text-align: center;
+    margin-top: 230px;
+    box-shadow:1px 1px 1px 1px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outside-links li img{
+    width: 70px;
+    height: 70px;
+    transform: scale(1);
+    transition-duration: 500ms;
+}
+.outside-links li img:hover{
+    transform: scale(1.5);
+    transition-duration: 500ms;
 }
 
+/* About Me Styling */
+
+.about-first-detail{
+    color: white;
+    
+    height: 500px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 85px;   
+    padding: 100px;
+    
+}
+.about-first-detail #textcontent1{
+    width: 500px;
+}
 
