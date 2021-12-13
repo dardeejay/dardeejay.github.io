@@ -246,19 +246,62 @@ body{
 .about-third-detail #textcontent3{
     color: white;
     width: 700px;
+    margin-top: 100px;
+    margin-left: 90px;
 }
 
+.about-third-detail #textcontent3 h1{
+    font-size:65px;
+}
+
+.image-container-aboutme3{
+    margin-top: 50px;
+    margin-left: 60px;
+}
 .image-container-aboutme3 :first-child{
-    width: 300px;
-    height: 225px;
+    width: 250px;
+    height: 187px;
 }
 
 .image-container-aboutme3 :nth-child(2){
-    width: 300px;
-    height: 225px;
+    width: 250px;
+    height: 187px;
 }
 
 .image-container-aboutme3 :nth-child(3){
     width: 200px;
     height: 282px;
+    margin-left: 130px;
+}
+
+/* Blog Homepage */
+
+.blog-page{
+    color: white;
+    display: inline-block;
+    margin-top:85px;
+}
+.blog-page .container2{
+    display: flex;
+    align-items: top;
+    margin-left: 75px; 
+}
+.blog-page .blog-container{
+    width:800px;
+    height:700px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.blog-page .blog-container h1{
+    border-bottom: 1px solid white;
+}
+.blog-page .blog-menu{
+    margin-left: 30px;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    border: 1px solid white;
+    border-radius: 30px;;
 }
