@@ -24,6 +24,7 @@ body{
     background-blend-mode: overlay;
     padding: 15px 0;
     border-bottom: 1px solid #920000;
+    z-index: 1;
 }
 
 .navigation-bar .max-width{
@@ -152,19 +153,22 @@ body{
 
 .about-first-detail{
     color: white;
-    height: 500px;
+    height: 635px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid white;
     
 }
 .about-first-detail #textcontent1{
-    width: 500px;
-    margin-top: 100px;
+    width: 700px;
+    margin-top: 75px;
     padding: 100px;
     
 }
-
+.about-first-detail #textcontent1 h1{
+    font-size: 70px;
+}
 
 .image-container-aboutme1 :first-child{
     width:266px;
@@ -172,6 +176,7 @@ body{
     margin-top: 170px;
     margin-right: 400px;
     position: relative;
+    z-index: 0;
     
 }
 
@@ -192,4 +197,68 @@ body{
     position: absolute;
     margin-top: -200px;
     margin-left: 300px;
+    z-index: -2;
+}
+
+.about-second-detail{
+    display: flex;
+    flex-direction:row-reverse;
+    height: 560px;
+    
+}
+
+.about-second-detail #textcontent2{
+    color: white;
+    width: 700px;
+    margin-top: 75px;
+}
+.about-second-detail #textcontent2 h1{
+    margin-left: 290px;
+    font-size: 70px;
+}
+.image-container-aboutme2 :first-child{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.image-container-aboutme2 :nth-child(2){
+    width:200px;
+    height: 200px;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+
+.image-container-aboutme2 :nth-child(3){
+    width: 200px;
+    height: 133px;
+    display:block;
+    position: absolute;
+    margin-left: 70px;
+}
+
+.about-third-detail{
+    display: flex;
+    height:550px;
+    border: 1px solid white;
+}
+
+.about-third-detail #textcontent3{
+    color: white;
+    width: 700px;
+}
+
+.image-container-aboutme3 :first-child{
+    width: 300px;
+    height: 225px;
+}
+
+.image-container-aboutme3 :nth-child(2){
+    width: 300px;
+    height: 225px;
+}
+
+.image-container-aboutme3 :nth-child(3){
+    width: 200px;
+    height: 282px;
 }
